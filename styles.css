@@ -37,7 +37,7 @@ body, html {
     letter-spacing: 0.5px;
 }
 
-/* Panel derecho blanco */
+
 .right-panel {
     width: 55%;
     display: flex;
@@ -48,10 +48,10 @@ body, html {
 
 .form-container {
     width: 100%;
-    max-width: 420px; /* Ancho máximo del formulario para que no se estire de más */
+    max-width: 420px; 
 }
 
-/* Textos de cabecera */
+
 .header {
     margin-bottom: 2.5rem;
 }
@@ -68,7 +68,7 @@ body, html {
     line-height: 1.5;
 }
 
-/* Contenedores de inputs */
+
 .input-group {
     margin-bottom: 1.5rem;
 }
@@ -81,7 +81,6 @@ body, html {
     margin-bottom: 0.6rem;
 }
 
-/* Caja del input (bordes y fondo) */
 .input-wrapper {
     display: flex;
     align-items: center;
@@ -96,13 +95,6 @@ body, html {
     border-color: #0d62ff;
 }
 
-/* Íconos de FontAwesome */
-.input-wrapper i {
-    color: #a0a0a0;
-    font-size: 1.1rem;
-}
-
-/* Campo de texto (sin bordes) */
 .input-wrapper input {
     border: none;
     outline: none;
